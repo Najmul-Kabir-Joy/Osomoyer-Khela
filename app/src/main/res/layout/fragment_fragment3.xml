@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:id="@+id/relative_view_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="20dp">
+            <ImageView
+                android:id="@+id/iv_tasbi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/cv_tasbi"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:id="@+id/tv_tasbi"
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="তসবি"
+                android:layout_below="@+id/iv_tasbi"/>
+            <Button
+                android:id="@+id/btn_tasbi"
+                android:layout_width="120dp"
+                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_tasbi"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:text="USE"/>
+
+            <ImageView
+                android:id="@+id/iv_calculator"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/cv_calculator"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:id="@+id/tv_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="ক্যাল্কুলেটর"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_below="@+id/iv_calculator"
+                android:layout_alignParentEnd="true"/>
+            <Button
+                android:id="@+id/btn_calculator"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_calculator"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="USE"/>
+            <ImageView
+                android:id="@+id/iv_converter"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/cv_converter"
+
+                android:layout_below="@id/btn_tasbi"/>
+            <TextView
+                android:id="@+id/tv_converter"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="কনভার্টার"
+                android:layout_below="@+id/iv_converter"/>
+            <Button
+                android:id="@+id/btn_converter"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="use"
+                android:layout_below="@id/tv_converter"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

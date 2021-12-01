@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">অসময়ের খেলা</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Rules">
+        <b><i>Rules</i></b>\n1.Please calculate the given Number \n2.Inset your calculation in the box \n3.Press The Big check Button\n4.For correct Answer you will Get 2 points\n5.For wrong ans you will Get -4 points
+    </string>
+
+    <string name="lebu">\'ল\' তে লেবু</string>
+    <string name="rainbow">\'র\' তে রংধনু</string>
+    <string name="boat">\'ন\' তে নৌকা</string>
+    <string name="dhan">\'ধ\' তে ধান</string>
+    <string name="doyel">\'দ\' তে দোয়েল</string>
+    <string name="tormooj">\'ত\' তে তরমুজ</string>
+    <string name="flag">\'প\' তে পতাকা</string>
+    <string name="thole">\'থ\' তে থলে</string>
+    <string name="deer">\'ণ\' তে হরিণ</string>
+    <string name="dhol">\'ঢ\' তে ঢোল</string>
+    <string name="dab">\'ড\' তে ডাব</string>
+    <string name="flower">\'ফ\' তে ফুল</string>
+    <string name="vhat">\'ভ\' তে ভাত</string>
+    <string name="bol">\'ব\' তে বল</string>
+    <string name="mach">\'ম\' তে মাছ</string>
+    <string name="zob">\'য\' তে যব</string>
+    <string name="thela">\'ঠ\' তে ঠেলাগাড়ি</string>
+    <string name="tomato">\'ট\' তে টমেটো</string>
+    <string name="waterlily">\'শ\' তে শাপলা</string>
+    <string name="rain">\'ষ\' তে বৃষ্টি</string>
+    <string name="duck">\'হ\' তে হাঁস</string>
+    <string name="lion">\'স\' তে সিংহ</string>
+    <string name="kite">\'ড়\' তে ঘুড়ি</string>
+    <string name="snake">\'অ\' তে অজগর</string>
+    <string name="ektara">\'এ\' তে একতারা</string>
+    <string name="mango">\'আ\' তে আম</string>
+    <string name="rabbit">\'খ\' তে খরগোশ</string>
+    <string name="ladiesfinger">\'ঢ়\' তে ঢেড়স</string>
+    <string name="launch">\'ঞ্ছ\' তে লঞ্ছ</string>
+    <string name="horse">\'ঘ\' তে ঘোড়া</string>
+    <string name="fish">\'ই\' তে ইলিশ</string>
+    <string name="medicine">\'ঔ\' তে ঔষধ</string>
+    <string name="ship">\'জ\' তে জাহাজ</string>
+    <string name="tree">\'গ\' তে গাছ</string>
+    <string name="chalta">\'চ\' তে চালতা</string>
+    <string name="peacock">\'য়\' তে ময়ূর</string>
+    <string name="grass">\'ঋ\' তে তৃণ</string>
+    <string name="umbralla">\'ছ\' তে ছাতা</string>
+    <string name="eagle">\'ঈ\' তে ঈগল</string>
+    <string name="elephant">\'ঐ\' তে ঐরাবত</string>
+    <string name="busket">\'ঝ\' তে ঝুড়ি</string>
+    <string name="frog">\'ঙ\' তে ব্যাঙ</string>
+    <string name="crow">\'ক\' তে কাক</string>
+    <string name="camel">\'উ\' তে উট</string>
+    <string name="sun">\'ঊ\' তে ঊষা</string>
+    <string name="weighht">\'ও\' তে ওজন</string>
+    <string name="shrimp">\'ং\' তে চিংড়ি</string>
+    <string name="fishs">\'ৎ\' তে মৎস</string>
+    <string name="ducks">\'ঁ\' তে হাঁস</string>
+    <string name="dev1">Md.Najmul Kabir \n ID: 181-15-11321 \n Email: najmul15-11321@diu.edu.bd</string>
+</resources>

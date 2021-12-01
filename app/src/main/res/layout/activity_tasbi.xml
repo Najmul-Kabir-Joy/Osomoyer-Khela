@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mydrawer"
+    android:background="#ccebff"
+    tools:context=".tasbi">
+    <com.google.android.material.navigation.NavigationView
+        android:theme="@style/NavigationViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cnav"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"
+        android:background="@color/teal_700"
+        app:itemTextColor="@color/white"
+        app:itemIconSize="30dp"
+        android:layout_gravity="start"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/custom_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/teal_700"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:titleTextColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/custom_toolbar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="সর্বমোট: ০"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/sbn"
+                android:layout_below="@+id/tv_sbn"
+                android:layout_centerHorizontal="true"
+                android:layout_width="200dp"
+                android:text="سُبْحَانَ ٱللَّٰهِ,"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/tv_sbn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_total"
+                android:layout_centerHorizontal="true"
+                android:text="সুবাহান আল্লাহ্‌ = ০০"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/tv_alhmd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আলহামদুলিল্লাহ্‌ = ০০"
+                android:layout_below="@+id/sbn"
+                android:layout_centerHorizontal="true"
+                android:textSize="40sp"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:id="@+id/alhmd"
+                android:text="ٱلْحَمْدُ لِلَّٰهِ"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_alhmd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_Allahu"
+                android:textSize="40sp"
+                android:text="আল্লাহু আকবার = ০০"
+                android:layout_below="@+id/alhmd"
+                android:layout_centerHorizontal="true"
+                />
+            <Button
+
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:id="@+id/alhu"
+                android:text="اللّٰهُ أَكْبَر‎ ‎"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_below="@+id/tv_Allahu"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/tv_laila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="লা-ইলাহা ইল্লা-আল্লাহ্ = ০০"
+                android:layout_below="@+id/alhu"
+                android:layout_centerHorizontal="true"
+
+                android:textSize="35sp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:id="@+id/laila"
+                android:text="لَا إِلَٰهَ إِلَّا ٱللَّٰ‎"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv_laila"
+                android:layout_centerHorizontal="true"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:id="@+id/res"
+                android:text="RESET"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/laila"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

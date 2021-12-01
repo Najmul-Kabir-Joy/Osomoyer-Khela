@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navwithtab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NavWithTab">
+        <activity android:name=".calculator"></activity>
+        <activity android:name=".converter" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".devs" />
+        <activity android:name=".animals" />
+        <activity android:name=".tasbi" />
+        <activity android:name=".bornomala" />
+        <activity android:name=".kobita" />
+        <activity android:name=".rhymes" />
+        <activity android:name=".colors" />
+        <activity android:name=".alphabet" />
+        <activity android:name=".dicecount" />
+        <activity android:name=".calculation" />
+        <activity android:name=".oddevendice" />
+        <activity android:name=".bottlespinner" />
+        <activity android:name=".roulette" />
+        <activity android:name=".guessinggame" />
+        <activity android:name=".tictactoe" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mydrawer"
+    android:background="#ccebff"
+    android:orientation="vertical"
+    tools:context=".bottlespinner">
+    <com.google.android.material.navigation.NavigationView
+        android:theme="@style/NavigationViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cnav"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"
+        android:background="@color/teal_700"
+        app:itemTextColor="@color/white"
+        app:itemIconSize="30dp"
+        android:layout_gravity="start"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/teal_700"
+            app:titleTextColor="@color/white"
+            android:id="@+id/custom_toolbar"/>
+
+        <ImageView
+            android:id="@+id/bottle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bottle"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:text="Spin"
+            android:textStyle="bold"
+            android:onClick="spinBottle"/>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

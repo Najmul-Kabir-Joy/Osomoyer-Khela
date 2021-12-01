@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/nav_header"
+    android:orientation="vertical"
+    android:background="#FFF"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/main_logo2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="অসময়ের খেলা"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
